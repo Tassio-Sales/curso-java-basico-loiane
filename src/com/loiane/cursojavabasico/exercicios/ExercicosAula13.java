@@ -81,7 +81,7 @@ public class ExercicosAula13 {
 		double raioCirculo = scan.nextDouble();
 		System.out.println();
 		
-		double areaCirculo = 2.0 * 3.14 * Math.pow(raioCirculo, 2);
+		double areaCirculo = Math.PI * Math.pow(raioCirculo, 2);
 		
 		System.out.println("A área do círculo é igual a " + areaCirculo +" cm²");
 		System.out.println();
@@ -93,13 +93,12 @@ public class ExercicosAula13 {
 		double ladoQuadrado = scan.nextDouble();
 		System.out.println();
 		
-		double areaQuadrado = ladoQuadrado * ladoQuadrado;
+		double areaQuadrado = Math.pow(ladoQuadrado, 2);
 		
 		System.out.println("A área do quadrado é igual a " + areaQuadrado +" cm²");
 		System.out.println();
 		
 		double areaQuadradoDobrada = 2 * areaQuadrado;
-		
 		System.out.println("O dobro da área do quadrado é igual a " + areaQuadradoDobrada +" cm²");
 		System.out.println();
 		
@@ -363,6 +362,6 @@ public class ExercicosAula13 {
 		System.out.println("O tempo necessário para o download será de "+ tempoDownloadMinuto +" min");
 		System.out.println();
 		
-        
+		scan.close();
 	}	
 }
