@@ -2,7 +2,7 @@ package com.loiane.cursojavabasico.exercicios;
 
 import java.util.Scanner;
 
-public class ExercicosAula13 {
+public class ExerciciosAula13 {
 
 	public static void main(String[] args) {
 		
